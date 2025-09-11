@@ -18,15 +18,15 @@ It provides an API for managing the users and toys in a toy store.
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/NodeJS_final.git
+   git clone https://github.com/DonielYos-Z/NodeJS_final.git
    cd NodeJS_final
 
 2. Install dependencies:
    npm install
 
 3. Create a `.env` file in the root folder with the following:
-   MONGO_DB=your_mongodb_connection_string
-   TOKEN_KEY=your_secret_key
+   MONGO_DB=mongodb+srv://Guy2:IsGuy2@cluster0.dfuv8g9.mongodb.net/summer_final
+   TOKEN_KEY=monkeySecret
 
 4. Run the server:
    node app.js
@@ -52,4 +52,4 @@ It provides an API for managing the users and toys in a toy store.
 The `json/` folder contains exported MongoDB collections for users and toys, so the database can be restored if needed.
 
 ## Author
-Project by YOUR NAME for the NodeJS final assignment.
+Project by Doniel Yosef Zaner, less commonly known as 'God', more commonly known as 'that autistic guy', for the NodeJS final assignment.
