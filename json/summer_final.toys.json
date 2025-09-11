@@ -1,0 +1,236 @@
+[
+    {
+        "_id": {
+            "$oid": "68c1b83480584e41bda8e6b4"
+        },
+        "name": "Toy Car",
+        "info": "A small remote control car",
+        "category": "vehicles",
+        "img_url": "https://example.com/car.jpg",
+        "price": 50,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-10T17:41:08.071Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-10T17:41:08.071Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32b1fbeced788b9aca6e2"
+        },
+        "name": "Lego Star Wars",
+        "info": "Buildable spaceship from Star Wars",
+        "category": "buildings",
+        "img_url": "https://example.com/lego-sw.jpg",
+        "price": 150,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:03:43.624Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:03:43.624Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32b96beced788b9aca6e4"
+        },
+        "name": "Monopoly",
+        "info": "Classic real estate board game",
+        "category": "boardgame",
+        "img_url": "https://example.com/monopoly.jpg",
+        "price": 90,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:05:42.123Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:05:42.123Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32c05beced788b9aca6e6"
+        },
+        "name": "Hot Wheels Track",
+        "info": "Racing cars with loop track",
+        "category": "vehicles",
+        "img_url": "https://example.com/hotwheels.jpg",
+        "price": 60,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:07:33.091Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:07:33.091Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32c30beced788b9aca6e8"
+        },
+        "name": "Rubik's Cube",
+        "info": "3x3 classic puzzle cube",
+        "category": "puzzle",
+        "img_url": "https://example.com/rubik.jpg",
+        "price": 40,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:08:16.813Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:08:16.813Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32c6ebeced788b9aca6ea"
+        },
+        "name": "Barbie Doll",
+        "info": "Fashion doll with accessories",
+        "category": "dolls",
+        "img_url": "https://example.com/barbie.jpg",
+        "price": 110,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:09:18.508Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:09:18.508Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32c7dbeced788b9aca6ec"
+        },
+        "name": "UNO",
+        "info": "Fast-paced card game",
+        "category": "cards",
+        "img_url": "https://example.com/uno.jpg",
+        "price": 35,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:09:33.521Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:09:33.521Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32cbcbeced788b9aca6ee"
+        },
+        "name": "Chess Set",
+        "info": "Wooden chess board with pieces",
+        "category": "boardgame",
+        "img_url": "https://example.com/chess.jpg",
+        "price": 85,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:10:36.246Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:10:36.246Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32d05beced788b9aca6f0"
+        },
+        "name": "Nerf Blaster",
+        "info": "Foam dart blaster for kids",
+        "category": "outdoor",
+        "img_url": "https://example.com/nerf.jpg",
+        "price": 120,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:11:49.183Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:11:49.183Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32d0ebeced788b9aca6f2"
+        },
+        "name": "Play-Doh Pack",
+        "info": "Colorful modeling clay set",
+        "category": "creative",
+        "img_url": "https://example.com/playdoh.jpg",
+        "price": 50,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:11:58.834Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:11:58.834Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32d3abeced788b9aca6f4"
+        },
+        "name": "Jenga",
+        "info": "Stacking wooden block game",
+        "category": "puzzle",
+        "img_url": "https://example.com/jenga.jpg",
+        "price": 55,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:12:42.517Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:12:42.517Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32d54beced788b9aca6f6"
+        },
+        "name": "RC Car",
+        "info": "Remote controlled off-road car",
+        "category": "vehicles",
+        "img_url": "https://example.com/rccar.jpg",
+        "price": 200,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:13:08.890Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:13:08.890Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68c32d63beced788b9aca6f8"
+        },
+        "name": "Scrabble",
+        "info": "Word-based board game",
+        "category": "boardgame",
+        "img_url": "https://example.com/scrabble.jpg",
+        "price": 95,
+        "user_id": "68c1b53980584e41bda8e6af",
+        "createdAt": {
+            "$date": "2025-09-11T20:13:23.600Z"
+        },
+        "updatedAt": {
+            "$date": "2025-09-11T20:13:23.600Z"
+        },
+        "__v": 0
+    }
+]
