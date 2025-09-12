@@ -25,8 +25,8 @@ It provides an API for managing the users and toys in a toy store.
    npm install
 
 3. Create a `.env` file in the root folder with the following:
-   MONGO_DB=mongodb+srv://Guy2:IsGuy2@cluster0.dfuv8g9.mongodb.net/summer_final
-   TOKEN_KEY=monkeySecret
+   MONGO_DB=your_mongodb_connection_string_here
+   TOKEN_KEY=secret_key_for_jwt
 
 4. Run the server:
    node app.js
