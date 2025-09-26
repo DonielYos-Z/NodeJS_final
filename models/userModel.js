@@ -20,8 +20,7 @@ exports.validUser = (_reqBody) => {
     const JoiSchema = Joi.object({
         name: Joi.string().min(2).max(100).required(),
         email: Joi.string().min(2).max(100).email().required(),
-        password: Joi.string().min(2).max(100).required(),
-        role: Joi.string().valid("user", "admin").required()
+        password: Joi.string().min(2).max(100).required()
     })
 
     return JoiSchema.validate(_reqBody)
@@ -34,4 +33,5 @@ exports.validLogin = (_reqBody) => {
     })
 
     return JoiSchema.validate(_reqBody)
+
 }
