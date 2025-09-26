@@ -3,7 +3,7 @@ const { ToyModel, validToy } = require("../models/toyModel")
 const { auth } = require("../middlewares/auth")
 const router = express.Router()
 
-// Get all toys (with paginag + sort by price)
+// Get all toys (with paging + sort by price)
 router.get("/", async (req, res) => {
     try {
         const perPage = req.query.perPage || 5
@@ -139,3 +139,4 @@ router.delete("/:id", auth, async (req, res) => {
 })
 
 module.exports = router
+
