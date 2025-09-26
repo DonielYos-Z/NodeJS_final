@@ -47,11 +47,12 @@ router.post("/", async (req, res) => {
         return res.status(400).json(validBody.error.details)
     }
     try {
-        const user = new UserModel(req.body)
-        user.password = await bcrypt.hash(user.password, 10)
-        await user.save()
-        user.password = "******"
-        res.status(201).json(user)
+        const user = new UserModel(req.body);
+        user.role = "user";  // assign default role
+        user.password = await bcrypt.hash(user.password, 10);
+        await user.save();
+        user.password = "******";
+        res.status(201).json(user);
     }
     catch (err) {
         if (err.code == 11000) {
@@ -87,4 +88,5 @@ router.post("/login", async (req, res) => {
 
     }
 })
+
 module.exports = router
