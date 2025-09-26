@@ -17,7 +17,7 @@ router.get("/", async (req, res) => {
     }
     catch (err) {
         console.log(err)
-        res.status(502).json({ err, msg: "There error, try again later" })
+        res.status(502).json({ err, msg: "There's an error, try again later" })
     }
 })
 
@@ -36,7 +36,7 @@ router.get("/search", async (req, res) => {
     }
     catch (err) {
         console.log(err)
-        res.status(502).json({ err, msg: "There error, try again later" })
+        res.status(502).json({ err, msg: "There's an error, try again later" })
     }
 })
 
@@ -54,7 +54,7 @@ router.get("/category", async (req, res) => {
     }
     catch (err) {
         console.log(err)
-        res.status(502).json({ err, msg: "There error, try again later" })
+        res.status(502).json({ err, msg: "There's an error, try again later" })
     }
 })
 
@@ -74,7 +74,7 @@ router.get("/prices", async (req, res) => {
     }
     catch (err) {
         console.log(err)
-        res.status(502).json({ err, msg: "There error, try again later" })
+        res.status(502).json({ err, msg: "There's an error, try again later" })
     }
 })
 
@@ -86,7 +86,7 @@ router.get("/count", async (req, res) => {
     }
     catch (err) {
         console.log(err)
-        res.status(502).json({ err, msg: "There error, try again later" })
+        res.status(502).json({ err, msg: "There's an error, try again later" })
     }
 })
 
@@ -104,7 +104,7 @@ router.post("/", auth, async (req, res) => {
     }
     catch (err) {
         console.log(err)
-        res.status(502).json({ err, msg: "There error, try again later" })
+        res.status(502).json({ err, msg: "There's an error, try again later" })
     }
 })
 
@@ -121,7 +121,7 @@ router.put("/:id", auth, async (req, res) => {
     }
     catch (err) {
         console.log(err)
-        res.status(502).json({ err, msg: "There error, try again later" })
+        res.status(502).json({ err, msg: "There's an error, try again later" })
     }
 })
 
@@ -134,9 +134,10 @@ router.delete("/:id", auth, async (req, res) => {
     }
     catch (err) {
         console.log(err)
-        res.status(502).json({ err, msg: "There error, try again later" })
+        res.status(502).json({ err, msg: "There's an error, try again later" })
     }
 })
 
 module.exports = router
+
 
